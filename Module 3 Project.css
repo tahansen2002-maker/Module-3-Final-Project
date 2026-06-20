@@ -66,6 +66,18 @@ nav {
     padding-bottom: 4px;
 }
 
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.logo__title {
+   font-weight: 900;
+   font-size: 24px;
+   margin-left: 12px;
+   padding-bottom: 2px;
+   letter-spacing: 0.6px;
+}
 
 .btn__menu {
     display: none;
@@ -122,6 +134,50 @@ nav {
     border: none;
 }
 
+.nav__links {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+    margin: 0 26px;
+    letter-spacing: 0.35px;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    transition: all 300ms;
+}
+
+.nav__link--signup {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 9999px;
+    color: #fff;
+    background-color: #6415ff;
+    line-height: 1.5;
+    border: none;
+    width: auto;
+    transition: all 300ms ease;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
 .menu--open .modal {
     visibility: visible;
     opacity: 1;
@@ -148,6 +204,25 @@ header .row {
     justify-content: space-between;
 }
 
+.header__description {
+    width: 40%;
+}
+
+h1 {
+    font-size: 48px;
+    color:#1a202c;
+    line-height: 1.25;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.header__text {
+    margin: 32px 0;
+}
 
 /* 
 
