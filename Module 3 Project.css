@@ -1028,11 +1028,22 @@ TESTIMONIALS ↓
 }
 
 .review__profile--image {
-  display: flex;
-  align-items: center;
   width: 80px;
   height: 80px;
   border-radius: 50%;
+}
+
+.review__profile--name {
+  color: #4a5568;
+  line-height: 1.625;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.review__client--title {
+  color: #7c8ba1;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .testimonial__buttons {
@@ -1049,6 +1060,10 @@ TESTIMONIALS ↓
   border-radius: 50%;
   margin: 0 12px;
   transition: all 300ms ease;
+}
+
+.testimonial__button:hover {
+  background: #e2e8f0;
 }
 
 .testimonial__button svg {
@@ -1162,7 +1177,7 @@ START / CALL TO ACTION ↓
   border-radius: 500px;
   font-weight: 700;
   font-size: 16px;
-  color: #f7fafc;
+  color: #6415ff;
   line-height: 1.5;
   margin: 1px;
   z-index: 2;
