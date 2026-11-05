@@ -992,11 +992,6 @@ TESTIMONIALS ↓
   margin-top: 4px;
 }
 
-.fa-regular fa-star {
-  font-weight: 900;
-  color: rgba(246, 173, 85);
-}
-
 .testimonial__title {
   color: #4a5568;
   line-height: 1.625;
@@ -1016,10 +1011,12 @@ TESTIMONIALS ↓
 
 .testimonial__bottom {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .review__profile--image {
+  display: flex;
+  align-items: center;
   width: 80px;
   height: 80px;
   border-radius: 50%;
