@@ -1210,6 +1210,7 @@ footer {
   margin-bottom: -32px;
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .footer__blob--1 {
@@ -1424,7 +1425,7 @@ MOBILE RESPONSIVENESS ↓
     max-width: 512px;
     margin: 0px auto;
   }
-
+}
 
 @media (max-width: 768px) {
   #quality .row,
@@ -1486,6 +1487,7 @@ MOBILE RESPONSIVENESS ↓
   .testimonials__text--wrapper {
     padding-left: 0px;
   } 
+}
 
 @media (max-width: 640px) {
   .container {
@@ -1505,9 +1507,38 @@ MOBILE RESPONSIVENESS ↓
     flex-direction: column;
     align-items: center;
     text-align: center;
+    position: relative;
+    left: 60px;
   }
+
+  .feature__subtitle {
+    max-width: 100%;
+    position: relative;
+    right: 8px;
+  }
+
+  .feature__para {
+    max-width: 100%;
+  }
+
+  .quality__figure--wrapper {
+    width: 100%;
+    max-width: 448px;
+    margin: 0 auto;
+  }
+
   #steps .section__title {
     margin: 16px 0 0 0;
+  }
+
+  .steps__figure--wrapper {
+    width: 100%;
+    max-width: 448px;
+    margin: 0 auto;
+  }
+
+  #steps .section__tag {
+    margin-top: 32px;
   }
 
   .section__title {
@@ -1515,67 +1546,149 @@ MOBILE RESPONSIVENESS ↓
     line-height: 1.25;
   }
   .steps__list {
-    margin-top: 48px;
+    margin-top: 32px;
   }
+
+  .step__number {
+    margin-bottom: 8px;
+  }
+
+  .step__title {
+    position: relative;
+    right: 8px;
+  }
+
+  .value__image {
+    width: 100%;
+    max-width: 448px;
+    margin: 0 auto;
+  }
+
+  .value_sections {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .value__section {
+   flex-direction: column;
+   align-items: center;
+  }
+
   .plan__bottom {
     padding: 2rem 1rem;
   }
   .plan__bottom2 {
     padding: 2rem 1rem;
   }
+
+  .testimonial__image {
+    width: 100%;
+    max-width: 448px;
+    margin: 0 auto;
+  }
+
+  .testimonial__text--wrapper {
+    width: 100%;
+    max-width: 448px;
+    margin: 0 auto;
+    padding-left: 0px;
+    align-items: center;
+  }
+
+  #testimonials .section__tag {
+    margin-top: 48px;
+  }
+
+  #testimonials .section__text {
+    width: 100%;
+    max-width: 448px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .testimonial__review--wrapper {
+    width: 100%;
+    max-width: 448px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .review__rating {
+    margin-left: 150px;
+  }
+
+  .testimonial__title {
+    margin-left: 80px;
+  }
+
   .testimonial__para {
     margin-bottom: 32px;
   }
+
   .testimonial__bottom {
     flex-direction: column;
     align-items: center;
     padding-top: 4px;
   }
+
   .review__profile--picture {
     flex-direction: column;
     align-items: center;
   }
+
   .testimonial__details {
     margin-left: 0px;
     margin-top: 8px;
   }
+
   .testimonial__buttons {
     margin-top: 32px;
   }
+
   .start__container {
     padding: 80px 0px;
   }
+
   .start__title {
     font-size: 24px;
   }
+
   .start__buttons {
     flex-direction: column;
   }
+
   .start__button {
     margin-right: 0px;
   } 
+
   .contact__button {
     margin-top: 16px;
   }
+
   .header__email {
     flex-direction: column;
     height: auto;
   }
+
   .header__customers--text {
     font-size: 14px;
     letter-spacing: 0.05em;
   }
+
   .header__email--input {
     position: static;
     padding: 16px 0px 16px 32px;
     line-height: 1.5;
   }
+
   .header__email--btn {
     width: 100%;
     padding: 16px 0px;
     margin: 16px 0px 0px;
     line-height: 1.5;
   }
+
   .nav__links {
     display: none;
   }
