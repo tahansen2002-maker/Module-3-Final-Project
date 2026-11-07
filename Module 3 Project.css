@@ -1205,7 +1205,7 @@ FOOTER ↓
 */
 
 footer {
-  padding: 96px 32px;
+  padding: 96px 96px;
   background-color: rgb(100, 21, 255);
   margin-bottom: -32px;
   position: relative;
